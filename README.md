@@ -5,14 +5,14 @@ An intelligent real-time PPE (Personal Protective Equipment) monitoring system t
 
 ## 🚀 Features
 
-**YOLOv8 Object Detection** – detects heads/person regions
-**Convolutional Neural Network (CNN)** – classifies helmet vs no-helmet
-**Reinforcement Learning (Q-learning)** – dynamically optimizes detection threshold
-**Natural Language Processing (NLP) Module** – generates human-readable safety reports
-**GUI Interface (Tkinter + OpenCV)** – supports:
-- Webcam monitoring
-- Image upload testing
-**Learning Curves** – RL performance visualization
+- **YOLOv8 Object Detection** – detects heads/person regions
+- **Convolutional Neural Network (CNN)** – classifies helmet vs no-helmet
+- **Reinforcement Learning (Q-learning)** – dynamically optimizes detection threshold
+- **Natural Language Processing (NLP) Module** – generates human-readable safety reports
+- **GUI Interface (Tkinter + OpenCV)** – supports:
+    - Webcam monitoring
+    - Image upload testing
+- **Learning Curves** – RL performance visualization
 
 ## 🧠 System Pipeline
 
