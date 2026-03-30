@@ -139,7 +139,7 @@ pip install ultralytics torch torchvision opencv-python numpy matplotlib pillow
 ```
 
 -----
-### **To Skip Model Re-Training**
+## **!! 📌To Skip Model Re-Training !!**
 
 Follow these guidelines if skipping model re-training is preferred:
 1. Once environment creation and requirements installations are completed, proceed to `/data` and carefully read the README_data.md file.
