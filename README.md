@@ -98,7 +98,7 @@ Note: The /runs, /venv, and /venv312 directories are excluded from the repositor
 **1️. Clone Repository**
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/Jasmine-Rose-Palma/SafetyScan.git
 cd project-root
 ```
 
