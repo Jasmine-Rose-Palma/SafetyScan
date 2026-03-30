@@ -11,7 +11,7 @@ Download here:
 - YOLO Dataset: [Download dataset.zip](https://drive.google.com/file/d/1fQVDbDDnimwIh6XeLpiShOvm_DvKzOds/view?usp=sharing)
 - CNN Dataset: [Download cnn_dataset.zip](https://drive.google.com/file/d/1KTkeKuwaqZEPOGEEtZ4neUhZ5ivFp6_s/view?usp=sharing)
 
-**1. After Download***
+**1. After Download**
 
 Place the files inside the ` data/ ` folder, then extract:
 ```
