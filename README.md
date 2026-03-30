@@ -212,7 +212,7 @@ notebooks/yolo_training_colab.ipynb
 ```
 
 **Steps:**
-1. Upload dataset ZIP file to Google Drive
+1. Upload dataset ZIP file to Google Colab
 2. Extract ZIP file in notebook
 3. Run all cells
 4. Download best.pt
