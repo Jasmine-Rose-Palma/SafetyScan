@@ -277,9 +277,9 @@ Expected Results Graph:
 - Optimizes detection threshold
 
 **NLP**
-Generates:
-- Safety warnings
-- Compliance reports
+- Generates:
+    - Safety warnings
+    - Compliance reports
 
 <br>
 
