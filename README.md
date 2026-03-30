@@ -16,12 +16,15 @@ An intelligent real-time PPE (Personal Protective Equipment) monitoring system t
     - Image upload testing
 - **Learning Curves** – RL performance visualization
 
+<br>
 
 ## 🧠 System Pipeline
 
 ```
 Camera/Image → YOLO → CNN → RL → NLP → GUI Display
 ```
+
+<br>
 
 ## 📁 Project Structure
 
@@ -96,6 +99,8 @@ project-root/
 ```
 Note: The /runs, /venv, and /venv312 directories are excluded from the repository for cleanliness and reproducibility.
 
+<br>
+
 ## ⚙️ Installation Guide
 
 **1️. Clone Repository**
@@ -133,6 +138,20 @@ If no requirements file:
 pip install ultralytics torch torchvision opencv-python numpy matplotlib pillow
 ```
 
+-----
+### **To Skip Model Re-Training**
+
+Follow these guidelines if skipping model re-training is preferred:
+1. Once environment creation and requirements installations are completed, proceed to `/data` and carefully read the README_data.md file.
+2. Follow the instructions provided in the dataset README file to safely extract datasets (both yolo and cnn) from the GDrive links, and arrange project-root folder structure accordingly.
+3. Make sure full project structure is followed before running the system.
+4. Proceed to running the main_system.py program.
+
+**If otherwise preferred, continue to dataset setup and training.**
+-----
+
+<br>
+
 ## 📦 Dataset Setup
 
 **YOLO Dataset Structure**
@@ -148,6 +167,8 @@ data/dataset/
     data.yaml
 ```
 
+<br>
+
 ### 🧠 CNN Dataset Preparation
 
 ```
@@ -161,6 +182,8 @@ data/cnn_dataset/train/
     helmet/
 ```
 
+<br>
+
 ### 🏋️ CNN Training
 
 ```
@@ -171,6 +194,8 @@ Output:
 ```
 models/cnn_model.pth
 ```
+
+<br>
 
 ### 🎯 YOLO Training (Google Colab)
 
@@ -198,11 +223,15 @@ This ensures training completes within ≤90 minutes as required.
 models/yolo_ppe_final.pt
 ```
 
+<br>
+
 ## ▶️ Running the System
 
 ```
 python main_system.py
 ```
+
+<br>
 
 ## 🖥 GUI Options
 
@@ -215,6 +244,8 @@ python main_system.py
 - Upload images
 - Useful for helmet testing
 
+<br>
+
 ## 📊 RL Learning Curve
 
 ```
@@ -224,6 +255,8 @@ experiments/results/rl_learning.png
 Expected Results Graph:
 - Reward vs steps
 - Learning convergence
+
+<br>
 
 ## 🧠 Model Components
 
@@ -243,11 +276,15 @@ Generates:
 - Safety warnings
 - Compliance reports
 
+<br>
+
 ## ⚖️ Ethics & Considerations
 
 - Privacy: Avoid unauthorized surveillance
 - Bias: Dataset limitations may affect accuracy
 - Usage: Not for safety-critical enforcement
+
+<br>
 
 ## 📊 Performance
 
@@ -258,11 +295,15 @@ Generates:
 | Recall         | ~0.93                   |
 | RL Convergence | Stable (~0.5 threshold) |
 
+<br>
+
 ## 🧪 Ablation Studies
 
 - Epoch comparison (15 vs 50)
 - Image size (512 vs 640)
 - Augmentation effects
+
+<br>
 
 ## 👥 Team Members and Roles
 
@@ -270,6 +311,8 @@ Generates:
 - De Leon, Kim Alyson R.    - ...
 - Palma, Jasmine Rose A.    - ...
 - Ruiz, Eina Loux M.        - ...
+
+<br>
 
 ## 📄 License
 
