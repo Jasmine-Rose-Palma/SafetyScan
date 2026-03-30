@@ -3,7 +3,8 @@
 
 An intelligent real-time PPE (Personal Protective Equipment) monitoring system that detects helmet compliance using computer vision, reinforcement learning, and natural language processing.
 
-\
+
+
 ## 🚀 Features
 
 - **YOLOv8 Object Detection** – detects helmets/heads/person classes
