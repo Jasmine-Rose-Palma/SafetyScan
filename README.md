@@ -324,5 +324,5 @@ Expected Results Graph:
 **Dataset:**
 CC0 1.0 Universal (Hard Hat Workers Computer Vision Model)
 
-In partial fulfillment of finals project requirements in Intelligent Systems (6INTELSY) and Data Analytics for Computer Science (6DANCS).
+In partial fulfillment of our finals project requirements in Intelligent Systems (6INTELSY) and Data Analytics for Computer Science (6DANCS).
 Strictly for academic use only.
