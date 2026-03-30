@@ -1,5 +1,5 @@
 
-# 🦺 SafetyScan: A PPE Helmet Detection System for Workplace Safety
+# 🦺 SafetyScan: A PPE Detection System for Workplace Safety
 
 An intelligent real-time PPE (Personal Protective Equipment) monitoring system that detects helmet compliance using computer vision, reinforcement learning, and natural language processing.
 
