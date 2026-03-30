@@ -206,7 +206,7 @@ models/cnn_model.pth
 
 Due to CPU limitations, YOLO training is recommended to be performed using Google Colab (GPU).
 
-**Run the notebook:**
+**Run the notebook on Colab:**
 ``` 
 notebooks/yolo_training_colab.ipynb 
 ```
