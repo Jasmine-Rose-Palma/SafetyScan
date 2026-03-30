@@ -56,7 +56,8 @@ data/cnn_dataset/
 
 If cnn_dataset.zip is not provided, generate it using:
 ```
-python cnn/prepare_cnn_dataset.py
+python cnn/prepare_cnn_train_dataset.py
+python cnn/prepare_cnn_valid_dataset.py
 ```
 
 ## Important
