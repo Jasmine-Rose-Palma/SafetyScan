@@ -155,7 +155,8 @@ Follow these guidelines if skipping model re-training is preferred:
 ## 📦 Dataset Setup
 
 **YOLO Dataset Structure**
-Follow `/data/README_data.md` to safely extract dataset.zip file
+
+Note: Follow `/data/README_data.md` to safely extract and set up dataset.zip file
 
 ```
 data/dataset/
