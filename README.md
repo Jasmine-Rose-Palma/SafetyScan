@@ -32,26 +32,27 @@ Camera/Image → YOLO → CNN → RL → NLP → GUI Display
 ```
 project-root/
 │
-├── main_system.py                    # Main GUI system
+├── main_system.py                        # Main GUI system
 │
-├── models/                           # Saved trained models
-│   ├── yolo_ppe_final.pt             # Final YOLO model (trained via Colab)
-│   └── cnn_model.pth                 # CNN model (trained locally)
+├── models/                               # Saved trained models
+│   ├── yolo_ppe_final.pt                 # Final YOLO model (trained via Colab)
+│   └── cnn_model.pth                     # CNN model (trained locally)
 │
 ├── cnn/                              
-│   ├── model.py                      # CNN architecture
-│   ├── train.py                      # CNN training script
-│   ├── inference.py                  # CNN inference for classification
-│   └── prepare_cnn_dataset.py        # Converts YOLO dataset to CNN dataset
+│   ├── model.py                          # CNN architecture
+│   ├── train.py                          # CNN training script
+│   ├── inference.py                      # CNN inference for classification
+│   ├── prepare_cnn_train_dataset.py      # Converts YOLO train dataset to CNN dataset
+│   └── prepare_cnn_valid_dataset.py      # Converts YOLO valid dataset to CNN dataset
 │
-├── src/                              # Core system modules
-│   ├── rl_agent.py                   # RL agent (Q-learning)
-│   ├── rl_environment.py             # Reward function
-│   ├── rl_inference.py               # RL + YOLO integration logic
-│   └── nlp_module.py                 # NLP safety report generator
+├── src/                                  # Core system modules
+│   ├── rl_agent.py                       # RL agent (Q-learning)
+│   ├── rl_environment.py                 # Reward function
+│   ├── rl_inference.py                   # RL + YOLO integration logic
+│   └── nlp_module.py                     # NLP safety report generator
 │
-├── data/                             # Datasets
-│   ├── dataset/                      # Original YOLO dataset
+├── data/                                 # Datasets
+│   ├── dataset/                          # Original YOLO dataset
 │   │   ├── train/
 │   │   │   ├── images/
 │   │   │   └── labels/
@@ -62,9 +63,9 @@ project-root/
 │   │   │   ├── images/
 │   │   │   └── labels/
 │   │   ├── data.yaml
-│   │   └── dataset.zip               # Raw dataset archive (to be downloaded for Colab model training)
-│   │
-│   └── cnn_dataset/                  # Processed dataset for CNN
+│   │   └── dataset.zip                   # Raw dataset archive (to be downloaded for Colab model training)
+│   │    
+│   └── cnn_dataset/                      # Processed dataset for CNN
 │       ├── train/
 │       │   ├── head/
 │       │   └── helmet/
@@ -74,29 +75,29 @@ project-root/
 │
 ├── experiments/
 │   └── results/
-│       ├── yolo/                     # YOLO evaluation outputs (from Colab training)
+│       ├── yolo/                         # YOLO evaluation outputs (from Colab training)
 │       │   ├── results.png
 │       │   ├── confusion_matrix.png
 │       │   ├── BoxF1_curve.png
 │       │   └── BoxPR_curve.png
 │       │
-│       └── rl_learning.png           # RL learning curve
+│       └── rl_learning.png               # RL learning curve
 │
-├── notebooks/                        # Jupyter notebooks
-│   └── yolo_training_colab.ipynb     # Colab training notebook (GPU)
+├── notebooks/                            # Jupyter notebooks
+│   └── yolo_training_colab.ipynb         # Colab training notebook (GPU)
 │
-├── scripts/                          # Training & experimentation scripts
+├── scripts/                              # Training & experimentation scripts
 │   ├── yolo_dataset_clean.py
 │   ├── yolo_dataset_testing.py
-│   ├── yolo_train_FAST.py            # Fast training version (<=4hrs completion>)
-│   └── yolo_train_HP.py              # High-Performance requirement version (<=25hrs completion)
+│   ├── yolo_train_FAST.py                # Fast training version (<=4hrs completion>)
+│   └── yolo_train_HP.py                  # High-Performance requirement version (<=25hrs completion)
 │
-├── docs/                             # Project documentation/reports
+├── docs/                                 # Project documentation/reports
 │   └── Documentation.pdf
 │
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project documentation and guide
-└── yolov8n.pt                        # Base pretrained YOLO weights
+├── requirements.txt                      # Python dependencies
+├── README.md                             # Project documentation and guide
+└── yolov8n.pt                            # Base pretrained YOLO weights
 ```
 Note: The /runs, /venv, and /venv312 directories are excluded from the repository for cleanliness and reproducibility.
 
