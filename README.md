@@ -155,9 +155,13 @@ Follow these guidelines if skipping model re-training is preferred:
 ## 📦 Dataset Setup
 
 **YOLO Dataset Structure**
+Follow `/data/README_data.md` to safely extract dataset.zip file
 
 ```
 data/dataset/
+    test/
+        images/
+        labels/
     train/
         images/
         labels/
@@ -199,7 +203,7 @@ models/cnn_model.pth
 
 ### 🎯 YOLO Training (Google Colab)
 
-Due to CPU limitations, YOLO training was performed using Google Colab (GPU).
+Due to CPU limitations, YOLO training is recommended to be performed using Google Colab (GPU).
 
 **Run the notebook:**
 ``` 
