@@ -8,8 +8,8 @@ This folder contains the datasets required for training and running the PPE Helm
 Due to GitHub file size limitations, datasets are hosted externally.
 
 Download here:
-- YOLO Dataset: [Download dataset.zip](YOUR_LINK_HERE)
-- CNN Dataset: [Download cnn_dataset.zip](YOUR_LINK_HERE)
+- YOLO Dataset: [Download dataset.zip](https://drive.google.com/file/d/1fQVDbDDnimwIh6XeLpiShOvm_DvKzOds/view?usp=sharing)
+- CNN Dataset: [Download cnn_dataset.zip](https://drive.google.com/file/d/1KTkeKuwaqZEPOGEEtZ4neUhZ5ivFp6_s/view?usp=sharing)
 
 **1. After Download***
 
