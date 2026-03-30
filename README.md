@@ -1,3 +1,4 @@
+<br>
 
 # 🦺 SafetyScan: A PPE Detection System for Workplace Safety
 
