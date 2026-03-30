@@ -110,11 +110,11 @@ python -m venv venv
 
 Activate:
 
-Windows
+- Windows
 ```
 venv\Scripts\activate
 ```
-Mac/Linux
+- Mac/Linux
 ```
 source venv/bin/activate
 ```
