@@ -3,24 +3,23 @@
 
 This folder contains the datasets required for training and running the PPE Helmet Detection System.
 
-## Contents 
+## Dataset Download
 
-```
-data/
-├── dataset.zip         # Original YOLO dataset (images + labels + dataset license)
-└── cnn_dataset.zip     # Preprocessed dataset for CNN training
-```
+Due to GitHub file size limitations, datasets are hosted externally.
 
-## Setup Instructions
+Download here:
+- YOLO Dataset: [Download dataset.zip](YOUR_LINK_HERE)
+- CNN Dataset: [Download cnn_dataset.zip](YOUR_LINK_HERE)
 
-**1. Extract Datasets**
+**1. After Download***
 
-After cloning the repository, unzip both files:
+Place the files inside the ` data/ ` folder, then extract:
 ```
 unzip dataset.zip -d data/
 unzip cnn_dataset.zip -d data/
 ```
-Note: Extract files on ``` /data ``` upon download on local device. Make sure that your final project-root folder structure follows the exact structure provided on the SafetyScan README.md general guide.
+
+Note: Make sure that your final project-root folder structure follows the exact structure provided on the SafetyScan README.md general guide.
 
 **2. Expected Structure After Extraction**
 
