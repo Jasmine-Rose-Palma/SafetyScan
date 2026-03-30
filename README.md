@@ -268,15 +268,15 @@ Expected Results Graph:
 **YOLOv8**
 - Detects objects (head regions)
 
-**CNN (From Scratch)**
+**CNN**
 - 3 convolution layers
 - Classifies: Helmet or No Helmet
 
-**Reinforcement Learning**
+**RL**
 - Q-learning agent
 - Optimizes detection threshold
 
-**NLP Module**
+**NLP**
 Generates:
 - Safety warnings
 - Compliance reports
