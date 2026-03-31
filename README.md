@@ -314,10 +314,24 @@ Expected Results Graph:
 
 ## 👥 Team Members and Roles
 
-- Arcuino, Shan Harvey H.   - Documentation (Introduction, Checkpoint Report, Model & Methods 3.1, 3.3, and Data and Results 4.2), Quality Assurance, Presentation
-- De Leon, Kim Alyson R.    - Documentation (Project Paper & Checkpoint Report, Review of Related Literature, Model & Methods Section 3.2, Data & Results Sections 4.1/4.4/4.5, Model Card Summary); Presentation (PowerPoint); System Testing and Validation.
-- Palma, Jasmine Rose A.    - ...
-- Ruiz, Eina Loux M.        - ...
+**Arcuino, Shan Harvey H.**   
+- Documentation (Introduction, Checkpoint Report, Model & Methods 3.1, 3.3, and Data and Results 4.2)
+- Quality Assurance
+- Presentation
+
+**De Leon, Kim Alyson R.**    
+- Documentation (Project Paper & Checkpoint Report, Review of Related Literature, Model & Methods Section 3.2, Data & Results Sections 4.1/4.4/4.5, Model Card Summary)
+- Presentation (PowerPoint)
+- System Testing and Validation
+
+**Palma, Jasmine Rose A.**    
+- Documentation (Week 1 Documentation Paper, Data and Results 4, System Execution 6.1/6.2/6.3/6.4/6.5, Descriptive Analysis, Training Process - Partial)
+- Presentation (Video Demonstration, Problem Statement, Descriptive Analysis)
+- Dataset Preprocessing (Extraction, Cleaning, Augmentation and Usage)
+- System Design and Development (YOLOv8 Training, RL, CNN, NLP and GUI)
+
+**Ruiz, Eina Loux M.**        
+- ...
 
 <br>
 
