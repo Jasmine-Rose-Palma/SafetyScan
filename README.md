@@ -331,7 +331,11 @@ Expected Results Graph:
 - System Design and Development (YOLOv8 Training, RL, CNN, NLP and GUI)
 
 **Ruiz, Eina Loux M.**        
-- ...
+- Documentation (Checkpoint Report and Proofreading/Editing)
+- Presentation (Results & Discussion)
+- Dataset Procurement and Backend Development
+- Testing and Quality Assurance
+
 
 <br>
 
